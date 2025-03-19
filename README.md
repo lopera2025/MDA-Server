@@ -37,7 +37,7 @@ That's it—you are good to go!
 
 ## For Advance Settings
 
-after running *node Server.js* you will see a promt asking you about further settings..
+after running **node Server.js** you will see a promt asking you about further settings..
 you can change any settings there ! like port or what ever ...But if you planning to use it for big thing than 
 create a MongoDB account and copy paste the authToken into next promt ! 
 it will look like this !
@@ -68,11 +68,28 @@ replace the port with your server port !
 ssh -R anipub:80:localhost:port serveo.net
 ```
 you will find a google/github verification link.. just follow the link and confirm your account ! 
-That's it , you don't have to do anymore extra stuff again
+That's it , you don't have to do anything again
 
 ***Why it's better than ngrok?***
 -You don't have to create another account since it's a hassle
 -You can't create custom subdomain in ngrok unless you pay them money 
+
+
+| Feature         | Ngrok                                                                 | Serveo.net                                                   |
+|-----------------|----------------------------------------------------------------------|--------------------------------------------------------------|
+| **Pros**        |                                                                      |                                                              |
+| Ease of Use     | Simple setup and easy to use with a single command                   | No installation required, uses SSH for tunneling             |
+| Features        | Offers a variety of features: HTTP(s), TCP, custom subdomains etc.   | Lightweight, straightforward tunneling                       |
+| Dashboard       | Provides a web-based dashboard for monitoring traffic                | No web-based dashboard, purely command-line based            |
+| Security        | Supports secure tunnels with HTTPS                                   | Uses SSH, inherently secure                                  |
+| Customization   | Allows custom subdomains and custom domains                          | Custom subdomains supported                                  |
+| Support         | Extensive documentation and community support                        | Minimal documentation, relies on SSH knowledge               |
+| **Cons**        |                                                                      |                                                              |
+| Pricing         | Free tier available, but advanced features require a paid plan       | Free, but lacks advanced features                            |
+| Limitations     | Free tier has limits on session duration and connections             | Limited features compared to Ngrok                           |
+| Setup           | Requires installation of Ngrok client                                | Requires SSH access and setup                                |
+| Custom Domains  | Custom domains are a paid feature                                    | No support for custom domains                                 |
+| Advanced Features| Advanced features are behind a paywall                              | Lacks advanced features like HTTP(s), TCP, and custom domains |
 
 
 ## Features
