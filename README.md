@@ -172,17 +172,53 @@ Every feature and button is designed with the developer in mind. Intuitive place
 | **Scalability**       | Scales with your ideas using Node.js                                                         | Scales well, but may require paid plans for higher scalability | Scales well, but may require paid plans for higher scalability | Varies, often requires additional configuration  |
 
 
-## License
 
-This project is licensed under the MIT License. You are free to use, modify, and distribute this software as you see fit. For more details, see the [LICENSE](LICENSE) file.
+## Contributing
+
+We welcome contributions to enhance MDA Server! To contribute, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the repository page to create a copy of the repository in your GitHub account.
+
+2. **Clone the Fork**: Clone your forked repository to your local machine using:
+   ```bash
+   git clone https://github.com/<your-username>/MDA-Server.git
+   cd MDA-Server```
+3. **Create a Branch**: Create a new branch for your feature or bug fix:
+```bash
+git checkout -b feature-branch
+```
+4. **Make Changes**: Make your changes in the code. Ensure your code follows the project's coding standards.
+5. **Commit Changes**: Commit your changes with a meaningful commit message:
+```bash
+git add .
+git commit -m "Add feature X"
+```   
+6.**Push to GitHub**:Push your changes to your forked repository:
+```bash
+git push origin feature-branch
+```
+7.**Create a Pull Request**: Go to the original repository and click on the "Pull requests" tab. Click the "New pull request" button and select your branch to create a pull request.
+
+8.**Review Process**: Your pull request will be reviewed by the maintainers. Be responsive to any feedback and make necessary changes.
+
+9.**Merge**: Once your pull request is approved, it will be merged into the main branch of the repository.
+
+### Guidelines
+- Ensure your code follows the project's coding standards.
+- Write clear and concise commit messages.
+- Include comments in your code where necessary.
+- Update documentation if your changes affect it.
+- Write tests for any new features or bug fixes.
+
+  **Thank you for contributing to MDA Server!**
+
 
 ## Credits and Acknowledgements
 
 This project is developed and maintained by [AdnanDLuffy](https://github.com/AdnanDLuffy). We thank the following contributors for their valuable input and support:
 
-- [Contributor 1](https://github.com/Contributor1)
-- [Contributor 2](https://github.com/Contributor2)
-- [Contributor 3](https://github.com/Contributor3)
+- [AdnanDLuffy](https://github.com/AdnanDLuffy)
+- Contribute to see your name here
 
 Special thanks to the open-source community for their contributions and support. This project is powered by contributions from developers worldwide and built with the following technologies:
 
@@ -191,4 +227,6 @@ Special thanks to the open-source community for their contributions and support.
 - [Serveo](https://serveo.net/)
 - [Ngrok](https://ngrok.com/)
 
-Your contributions are welcome! Please see the [Contributing](#contributing) section for more details on how you can get involved.
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software as you see fit. For more details, see the [LICENSE](LICENSE) file.
