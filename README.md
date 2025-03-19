@@ -136,3 +136,21 @@ Choose from a variety of themes to match your style. Dark mode, light mode[Isn't
 ### User Experience Focused
 
 Every feature and button is designed with the developer in mind. Intuitive placements and a thoughtful layout streamline your workflow, making server management a breeze.
+
+
+## Why we are best 
+
+| Feature               | MDA Server                                                                                   | Heroku                                            | Vercel                                            | Other Platforms                                  |
+|-----------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
+| **Pricing**           | 100% Free                                                                                    | Free tier with limited features; Paid plans available | Free tier with limited features; Paid plans available | Varies, usually includes free and paid tiers     |
+| **Ease of Use**       | Simple setup with `npm install` and `node Server.js`                                         | Easy to use with CLI and dashboard                | Easy to use with CLI and dashboard                | Varies, some may require complex setup            |
+| **Customization**     | Full control over ports and settings                                                         | Limited by platform constraints                   | Limited by platform constraints                   | Varies, often limited by platform constraints    |
+| **Flexibility**       | Host any file type (HTML, CSS, JSON, JS, Markdown, TXT, DOC, EJS)                            | Limited to certain file types and build processes | Limited to certain file types and build processes | Varies, often limited to specific use cases      |
+| **Security**          | Custom auth tokens and MongoDB integration                                                   | Basic security features; additional costs for advanced security | Basic security features; additional costs for advanced security | Varies, often requires additional configuration  |
+| **Performance**       | Built on Node.js for fast and scalable hosting                                               | Good performance, but may require paid plans for best performance | Good performance, but may require paid plans for best performance | Varies, often depends on paid plans              |
+| **Open Source**       | Fully open-source on GitHub—community-driven improvements and transparency                    | Proprietary platform                              | Proprietary platform                              | Varies, some may offer open-source components    |
+| **Real-Time Monitoring** | Real-time dashboard for monitoring uptime and resources                                    | Basic monitoring features; advanced features require paid plans | Basic monitoring features; advanced features require paid plans | Varies, often requires third-party tools         |
+| **Tunneling**         | Easy tunneling with Serveo or Ngrok                                                          | No built-in tunneling features                    | No built-in tunneling features                    | Varies, often requires third-party tools         |
+| **Community Support** | Community-driven, open-source project with contributions from developers                     | Strong community support, but platform-specific   | Strong community support, but platform-specific   | Varies, often depends on the platform            |
+| **Deployment Time**   | Fast deployment with minimal setup                                                           | Can be slow depending on build processes and platform limitations | Can be slow depending on build processes and platform limitations | Varies, often depends on the platform            |
+| **Scalability**       | Scales with your ideas using Node.js                                                         | Scales well, but may require paid plans for higher scalability | Scales well, but may require paid plans for higher scalability | Varies, often requires additional configuration  |
