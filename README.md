@@ -25,27 +25,27 @@ MDA Server is a versatile hosting solution tailored for developers. Whether you 
 
 To get started with MDA Server, follow these steps:
 **make sure this are installed** if it's already installed than you can skip this part!
-```
+```bash
 sudo apt install nodejs
 ```
-```
+```bash
 sudo apt install git 
 ```
-```
+```bash
 sudo apt install ssh
 ```
 
 Now :- 
-```
+```bash
 git clone https://github.com/AdnanDLuffy/MDA-Server.git
 ```
-```
+```bash
 cd MDA-Server
 ```
-```
+```bash
 npm install
 ```
-```
+```bash
 node Server.js
 ```
 
@@ -53,7 +53,7 @@ That's it—you are good to go!
 
 ## For Advance Settings
 
-after running **node Server.js** you will see a promt asking you about further settings..
+after running `node Server.js` you will see a promt asking you about further settings..
 you can change any settings there ! like port or what ever ...But if you planning to use it for big thing than 
 create a MongoDB account and copy paste the authToken into next promt ! 
 it will look like this !
@@ -76,11 +76,12 @@ It's more good than ngrok since it use ssh ... you just have to give a subdomain
 **If you see any Error**
 Just type in the following commands ! 
 
-```
+```bash
 ssh -keygen
 ```
 replace the port with your server port !
-```
+
+```bash
 ssh -R anipub:80:localhost:port serveo.net
 ```
 you will find a google/github verification link.. just follow the link and confirm your account ! 
