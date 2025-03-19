@@ -1,5 +1,19 @@
 # MDA Server
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Pricing](#pricing)
+- [How it Works](#how-it-works)
+- [Design](#design)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
+
+
 Hosting at your doorsteps
 
 Static or dynamic – add a few lines of code to make your site truly yours. Built by developers, for developers
@@ -138,7 +152,7 @@ Choose from a variety of themes to match your style. Dark mode, light mode[Isn't
 Every feature and button is designed with the developer in mind. Intuitive placements and a thoughtful layout streamline your workflow, making server management a breeze.
 
 
-## Why we are best 
+## Why MDA-Server 
 
 | Feature               | MDA Server                                                                                   | Heroku                                            | Vercel                                            | Other Platforms                                  |
 |-----------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------|--------------------------------------------------|-------------------------------------------------|
@@ -154,3 +168,5 @@ Every feature and button is designed with the developer in mind. Intuitive place
 | **Community Support** | Community-driven, open-source project with contributions from developers                     | Strong community support, but platform-specific   | Strong community support, but platform-specific   | Varies, often depends on the platform            |
 | **Deployment Time**   | Fast deployment with minimal setup                                                           | Can be slow depending on build processes and platform limitations | Can be slow depending on build processes and platform limitations | Varies, often depends on the platform            |
 | **Scalability**       | Scales with your ideas using Node.js                                                         | Scales well, but may require paid plans for higher scalability | Scales well, but may require paid plans for higher scalability | Varies, often requires additional configuration  |
+
+
