@@ -71,6 +71,7 @@ you will find a google/github verification link.. just follow the link and confi
 That's it , you don't have to do anything again
 
 ***Why it's better than ngrok?***
+
 -You don't have to create another account since it's a hassle
 -You can't create custom subdomain in ngrok unless you pay them money 
 
@@ -106,7 +107,7 @@ That's it , you don't have to do anything again
 
 ## Pricing
 
-### Static to Stellar Price: Free
+### Price: Free
 
 - **Totally Free**: Host your sites, tweak your ports, and go dynamic—all for zero bucks. No hidden fees, no upsells, just pure dev goodness.
 - **Why Free?**: Built with Node.js and powered by GitHub contributions, this tool is by devs, for devs.
@@ -130,7 +131,7 @@ Optimized for any device—desktop, tablet, or mobile. Manage your server on the
 
 ### Customizable Themes
 
-Choose from a variety of themes to match your style. Dark mode, light mode, and everything in between—make your workspace truly yours.
+Choose from a variety of themes to match your style. Dark mode, light mode[Isn't available yet], and everything in between—make your workspace truly yours.
 
 ### User Experience Focused
 
