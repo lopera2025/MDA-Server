@@ -8,8 +8,25 @@ Static or dynamic – add a few lines of code to make your site truly yours. Bui
 ## Installation
 
 To get started with MDA Server, follow these steps:
+**make sure this are installed** if it's already installed than you can skip this part!
+```
+sudo apt install nodejs
+```
+```
+sudo apt install git 
+```
+```
+sudo apt install ssh
+```
 
-```bash
+Now :- 
+```
+git clone https://github.com/AdnanDLuffy/MDA-Server.git
+```
+```
+cd MDA-Server
+```
+```
 npm install
 ```
 ```
@@ -30,11 +47,33 @@ mongodb+srv://username:password@cluster0.cbnst.mongodb.net/?retryWrites=true&w=m
 if you don't wan't to use it for big stuff .. than there is not need to warry .. cause we will use default one ! 
 but if you are a privecy freak than you your own authToken 
 
-##Setup 
+## Ngrok Setup
+If everything is ok after visiting `localhost:port/DashBoard` ... you will find a input field to give your ngrok authtoken ..
+- So click in this [Ngork](https://dashboard.ngrok.com/login) and create a ngrok account or if you already have one than login to the site next 
+- after login to the site click here [See your AuthToken](https://dashboard.ngrok.com/get-started/your-authtoken) and copy the token !
+- just paste it into the input field and click launch button ... 
 
+## Serveo Setup 
 
+It's more good than ngrok since it use ssh ... you just have to give a subdomain name and click launch ... it's will start within a sec.
 
-That's it—you are good to go!
+**If you see any Error**
+Just type in the following commands ! 
+
+```
+ssh -keygen
+```
+replace the port with your server port !
+```
+ssh -R anipub:80:localhost:port serveo.net
+```
+you will find a google/github verification link.. just follow the link and confirm your account ! 
+That's it , you don't have to do anymore extra stuff again
+
+***Why it's better than ngrok?***
+-You don't have to create another account since it's a hassle
+-You can't create custom subdomain in ngrok unless you pay them money 
+
 
 ## Features
 
