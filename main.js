@@ -1,5 +1,6 @@
 const {app,BrowserWindow} = require("electron")
 const port = require("./port");
+//if the device is Linux it will auto start ... 
 function Runner () {
     const Window = new BrowserWindow(
         {
