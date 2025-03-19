@@ -1,5 +1,9 @@
 # MDA Server
 
+Hosting at your doorsteps
+
+Static or dynamic – add a few lines of code to make your site truly yours. Built by developers, for developers
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -8,16 +12,14 @@
 - [Design](#design)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
+- [Configuration](#for-advance-settings)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits and Acknowledgements](#credits-and-acknowledgements)
 
+## Introduction
 
-Hosting at your doorsteps
-
-Static or dynamic – add a few lines of code to make your site truly yours. Built by developers, for developers
-
+MDA Server is a versatile hosting solution tailored for developers. Whether you need static or dynamic hosting, MDA Server provides the flexibility and control you need to make your site truly yours. Built on Node.js, it offers lightning-fast hosting that scales with your ideas. With features like custom port selection, real-time monitoring, and secure dynamic site support via MongoDB, MDA Server is built by developers, for developers.
 
 ## Installation
 
@@ -170,3 +172,23 @@ Every feature and button is designed with the developer in mind. Intuitive place
 | **Scalability**       | Scales with your ideas using Node.js                                                         | Scales well, but may require paid plans for higher scalability | Scales well, but may require paid plans for higher scalability | Varies, often requires additional configuration  |
 
 
+## License
+
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software as you see fit. For more details, see the [LICENSE](LICENSE) file.
+
+## Credits and Acknowledgements
+
+This project is developed and maintained by [AdnanDLuffy](https://github.com/AdnanDLuffy). We thank the following contributors for their valuable input and support:
+
+- [Contributor 1](https://github.com/Contributor1)
+- [Contributor 2](https://github.com/Contributor2)
+- [Contributor 3](https://github.com/Contributor3)
+
+Special thanks to the open-source community for their contributions and support. This project is powered by contributions from developers worldwide and built with the following technologies:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Serveo](https://serveo.net/)
+- [Ngrok](https://ngrok.com/)
+
+Your contributions are welcome! Please see the [Contributing](#contributing) section for more details on how you can get involved.
