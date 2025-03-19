@@ -18,6 +18,24 @@ node Server.js
 
 That's it—you are good to go!
 
+## For Advance Settings
+
+after running *node Server.js* you will see a promt asking you about further settings..
+you can change any settings there ! like port or what ever ...But if you planning to use it for big thing than 
+create a MongoDB account and copy paste the authToken into next promt ! 
+it will look like this !
+```bash
+mongodb+srv://username:password@cluster0.cbnst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+```
+if you don't wan't to use it for big stuff .. than there is not need to warry .. cause we will use default one ! 
+but if you are a privecy freak than you your own authToken 
+
+##Setup 
+
+
+
+That's it—you are good to go!
+
 ## Features
 
 - **Your Rules, Your Way**: Pick any port you want for your project. No restrictions, just pure flexibility to match your workflow. Built for devs who hate being boxed in.
