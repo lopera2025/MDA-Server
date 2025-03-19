@@ -4,18 +4,18 @@ Hosting at your doorsteps
 
 Static or dynamic – add a few lines of code to make your site truly yours. Built by developers, for developers
 
-## Table of Contents
+## Table of Contents- 
 - [Introduction](#introduction)
+- [Installation](#installation)
+- [Configuration](#for-advance-settings)
 - [Features](#features)
 - [Pricing](#pricing)
-- [How it Works](#how-it-works)
 - [Design](#design)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#for-advance-settings)
+- [How it Works](#how-it-works)
+- [Credits and Acknowledgements](#credits-and-acknowledgements)
 - [Contributing](#contributing)
 - [License](#license)
-- [Credits and Acknowledgements](#credits-and-acknowledgements)
+
 
 ## Introduction
 
