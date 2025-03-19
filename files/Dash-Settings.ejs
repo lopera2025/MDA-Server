@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="Style/Dash.css">
+    <link rel="stylesheet" href="Style/s-section.css">
+    <link rel="stylesheet" href="Style/Modal.css">
+    <link rel="stylesheet" href="Style/DashMedia.css">
+    <link rel="stylesheet" href="Style/DashSettings.css">
+</head>
+<body>
+    <header>
+        <div class="First-section">
+            <div class="Logo-div">
+                <img src="Icon/server.svg" alt="">
+                <div>
+                <p class="Logo">MDA-Server</p>
+                <p class="slogan">Awesome,Cool,Nice</p> 
+                </div>
+                
+            </div>
+      
+        </div>
+        <div class="Second-Section">
+            <div class="Menu">
+                <button class="Profile-Button">Profile</button>
+                    <div class="Menu-div">
+                        <button>
+                            Status-> <span style="color: red;">Inactive</span>
+                        </button>
+                        <button>
+                            Profile
+                        </button>
+                        <button>
+                            Settings
+                        </button>
+                        <button>
+                            Help
+                        </button>
+                        <button>
+                            Contact
+                        </button>
+                        <a href="/DashBoard/Logout">
+                        <button class="logout">
+                            Logout
+                        </button>
+                        </a>
+
+                    </div>
+            </div>
+           
+            
+   
+        </div>
+    </header>
+
+    <div class="main-container">
+         <main>
+            <div class="f-section">
+                <div>
+                    <p class="Title">Settings</p>
+                </div>
+                <div class="in-container">
+                    <input  placeholder="New Password" class="Password">
+                    <button class="change" data-id="pass">Change</button>
+                </div>
+               
+                <div class="in-container">
+                    <input  placeholder="New Email" class="Email" type="email">
+                    <button class="change" data-id="email">Change</button>
+                </div>
+                <div class="in-container">
+                    <input type="text" placeholder="New Name" class="Name" >
+                    <button class="change"  data-id="name">Change</button>
+                </div>
+                <div class="in-container">
+                    <input type="text" placeholder="New Username" class="Username" >
+                    <button class="change" data-id="username">Change</button>
+                </div>
+                <div class="in-container">
+                    <input type="text" placeholder="New Path  -- /home/user/folder/folder1" class="Path" >
+                    <button class="change" data-id="path">Change</button>
+                </div>
+                <div class="in-container">
+                    <div class="Box">
+                        <p>Dark Mode:-
+                        </p>
+                        <div>
+                             <span class="DM">ON</span>
+                            <input class="hilu" checked type="radio" name="dm">
+                        </div>
+                       
+                        <div>
+                        <span class="DM">OFF</span>  
+                            <input class="hilu" type="radio" name="dm">
+                         </div>
+                    </div>
+                    <button>Change</button>
+                </div>
+            
+               
+                
+                
+            </div>
+
+           <div class="second-sec-div">
+                <div>
+                    <button>Delete Your Account</button>
+                </div>
+           </div>
+            
+            <dialog>
+                
+                <p>Hey <span class="name"><%=UserInfo.Name%>!</span> kindly Provide Your Email and Password For confirmation</p>
+                <div class="form-container">
+                    
+                    
+                
+                </div>
+                
+            </dialog>
+
+        </main>
+
+
+    </div>
+   
+    
+    <script src="JS/menu.js"></script>
+    <script src="JS/settings.js"></script>
+   
+</body>
+</html>

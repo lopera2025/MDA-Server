@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="Style/Dash.css">
+    <link rel="stylesheet" href="Style/s-section.css">
+    <link rel="stylesheet" href="Style/Modal.css">
+    <link rel="stylesheet" href="Style/DashMedia.css">
+</head>
+<body>
+    <header>
+        <div class="First-section">
+            <div class="Logo-div">
+                <img src="Icon/server.svg" alt="">
+                <div>
+                <p class="Logo">MDA-Server</p>
+                <p class="slogan">Awesome,Cool,Nice</p> 
+                </div>
+                
+            </div>
+      
+        </div>
+        <div class="Second-Section">
+            <div class="Menu">
+                <button class="Profile-Button">Profile</button>
+                    <div class="Menu-div">
+                        <button>
+                            Status-> <span style="color: red;">Inactive</span>
+                        </button>
+                        <button>
+                            Profile
+                        </button>
+                       
+                       <a href="/Admin-Settings">
+                       <button>
+                            Settings
+                        </button>
+                    </a> 
+                        <button>
+                            Help
+                        </button>
+                        <button>
+                            Contact
+                        </button>
+                        <a href="/DashBoard/Logout">
+                        <button class="logout">
+                            Logout
+                        </button>
+                        </a>
+
+                    </div>
+            </div>
+           
+            
+   
+        </div>
+    </header>
+
+    <div class="main-container">
+         <main>
+            <div class="f-section">
+                <div>
+                    <p class="Title">Profie</p>
+                </div>
+                <div class="Box"><p>Status :<span class="status"> &CenterDot; Inactive</span></p></div>
+                <div class="Box"><p>Name :<span class="Name"><%=UserInfo.Name%></span></p></div>
+                <div class="Box"><p>Username :<span class="Email"><%=UserInfo.Username%></span></p></div>
+                <div class="Box"><p>Service Plan:<span class="paid"> <b>Paid </b>{Bruh This is all free}</span></p></div>
+                <div class="Box"><p>Registered Device :<span class="Device"><%=UserInfo.runningDevice%></span><span>HostName : <span class="HostNAme"><%=UserInfo.HostName%></span> <span></span></span></p></div>
+                <div class="Box"><p>Host :<span class="host"> localhost</span> <span>Port :<span class="port"><%=port%></span></span></p></div>
+                <div class="Box"><p>Available Tunneling Service's :<span class="service"><b>Ngrok</b> and <b>Serveo[Recommended]</b> </span></p></div>
+                <div class="Box"><p>Root File :<span class="path"><%=UserInfo.Path%> </span></p></div>
+                
+                
+            </div>
+
+            <div class="s-section">
+                <div>
+                    <p class="Title Setup">Setup</p>
+                </div>
+               
+
+                <div class="container-form">
+                
+                
+                <div class="box">
+                    <p class="ngrok">Setup Ngrok:-</p>
+                    <div class="setup-form">
+                        <input class="ngrokInput" type="text" placeholder="Your Ngrok AuthToken">
+                       <div class="launch-close-div"> </div>
+                    </div>
+                    <div class="url"><p class="link"><%= links %></p></div>
+                </div>
+
+
+                    <div class="box">
+                    <p class="serveo">Setup Serveo:- </p>
+                    <div class="setup-form">
+                        <input class="ssh-input"  type="text" placeholder="Sub Domain Name">
+                        <div><button class="Serveo-Button">launch Serveo</button></div>
+                    </div>
+                    <div class="url"><p class="link"><%=Link%></p></div>
+                </div>
+
+                </div>
+                
+                
+
+
+
+
+            </div>
+        
+            
+            <dialog>
+                
+                <p>Hey <span class="name"><%=UserInfo.Name%>!</span> kindly Provide Your Email and Password For confirmation</p>
+                <div class="form-container">
+                    
+                    
+                
+                </div>
+                
+            </dialog>
+
+        </main>
+
+
+    </div>
+   
+    
+    <script src="JS/menu.js"></script>
+    <script src="JS/modal.js"></script>
+   
+</body>
+</html>

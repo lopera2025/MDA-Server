@@ -1,0 +1,30 @@
+  .container {
+        justify-content: center;
+        align-items: center;
+        height: 340px;
+        
+    padding-top: 30px;
+    }
+    .ALu {
+        white-space: nowrap;
+        font-size: smaller;
+    }
+    .nt {
+        top: -1px;
+    }
+
+    @media screen and (min-width:300px) and (max-width:573px) {
+        .container {
+            flex-direction: column;
+            width: 300px;
+            height: 400px;
+            align-items: center;
+        }
+        .ALu {
+            white-space: nowrap;
+            font-size: smaller;
+        }
+        .nt {
+            top: -1px;
+        }
+    }

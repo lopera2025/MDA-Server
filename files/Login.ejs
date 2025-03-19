@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDA - Server |Login</title>
+    <link rel="stylesheet" href="Style/LR.css">
+    <link rel="stylesheet" href="Style/loginMedia.css">
+</head>
+<body>
+    <div class="container">
+      <div class="First-section-container">
+         <div class="First-section">
+            <div class="Logo-div">
+                <img src="Icon/server.svg" alt="">
+                <div>
+                <p class="Logo">MDA-Server</p>
+                <p class="slogan">Awesome,Cool,Nice</p> 
+                </div>
+                
+            </div>
+      
+        </div>
+        <div class="nt">
+            <div class="nt-div">
+                <p class="ALu <%=Message.Class%>"><%=Message.Mark%> <%=Message.Msge%></p>
+            </div>
+             <div class="boX">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+        
+
+        </div>
+
+
+        <div class="Second-section-container">
+        <div class="Second-section">
+      <form action="/Login" method="post">
+        <input autocomplete="email" type="text" name="id" placeholder="Email" required>
+        <input autocomplete="new-password" type="password" name="pass" placeholder="Password" required>
+        </div>
+        <div class="r-button-div">
+            <button class="Login-button">Login</button>
+    </form> 
+        <a href="/Registration"><button class="Registration-button">Registration</button></a>
+        
+    </div>
+    
+     </div>   
+    </div>    
+
+
+</body>
+</html>

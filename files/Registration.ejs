@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDA - Server |Registration</title>
+    <link rel="stylesheet" href="Style/LR.css">
+    <link rel="stylesheet" href="Style/Registration.css">
+</head>
+<body>
+    <div class="container">
+        <div class="First-section-container">
+            <div class="First-section">
+               <div class="Logo-div">
+                   <img src="Icon/server.svg" alt="">
+                   <div>
+                   <p class="Logo">MDA-Server</p>
+                   <p class="slogan">Awesome,Cool,Nice</p> 
+                   </div>
+                   
+               </div>
+         
+           </div>
+           <div class="nt">
+               <div class="nt-div">
+                   <p class="ALu <%=Message.Class%>"><%=Message.Mark%> <%=Message.Msge%></p>
+               </div>
+               <div class="boX">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+           </div>
+           
+           
+   
+           </div>
+    
+        <div class="Second-section-container">
+        <div class="Second-section">
+        <form  action="/Registration" method="post">    
+            <input autocomplete="name" type="text" name="name" placeholder="Name" required>
+            <input autocomplete="username" type="text" name="username" placeholder="Username" required>
+            <input autocomplete="email" type="email" name="email" placeholder="Email" required>
+            <input autocomplete="new-password" type="password" name="pass" placeholder="Password" required>
+            <input type="text" name="path" placeholder="Path" required>
+        </div>
+        <div class="r-button-div">
+            <button class="Registration-button">Register</button>
+       </form> 
+       <a href="/Login"><button class="Login-button">Login</button></a> 
+    </div>
+    
+    </div>
+    </div>    
+
+
+</body>
+</html>

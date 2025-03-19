@@ -1,0 +1,154 @@
+body {
+    
+    background-color: #1c1e21;
+    inset: 0;
+    height: 100vh;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    justify-content: center;
+    
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    column-gap: 20px;
+    background-color: #1b1c26;;
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    position: relative;
+    row-gap: 20px;
+    flex-shrink: 1;
+    position: relative;
+    border: 1px solid rgb(134 238 253);
+    flex-direction: row;
+    box-shadow: 0px 0px 7px 2px rgba(134, 237, 253, 0.599);
+
+}
+.box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    column-gap: 5px;
+    
+    left: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box div {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+.box div:nth-child(2) {
+    background-color: yellow;
+}
+.box div:nth-child(3) {
+    background-color: green;
+}
+.container {
+    margin-top: 45px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.container p {
+    color: aqua;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+}
+.CT {
+    display: flex;
+    column-gap:5px ;
+}
+.container p:nth-child(5) {
+    color: red;
+}
+.container p:nth-child(7) ,.container p:nth-child(8) {
+    color: rgba(0, 255, 242, 0.805);
+    font-weight: normal;
+}
+.container .bd {
+    height: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container .bd button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 1px solid aqua;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    
+    cursor: pointer;
+    box-shadow: 0px 0px 7px 2px rgba(134, 237, 253, 0.343);
+
+}
+.container .bd button:hover {
+    box-shadow: none;
+    opacity: 0.8;
+}
+.container .bd button:active {
+  
+    opacity: 0.5;
+}
+
+.dot {
+    overflow: hidden;
+    color: rgb(0, 247, 255);
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    animation: typing 2s steps(1100) infinite 
+}
+.load {
+    animation: rotate infinite 0.2s ;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(-0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: white;
+    }
+}
+@keyframes typing {
+    from {
+        width: 0px;
+    }
+    to {
+    width: 210px;
+
+    }
+}

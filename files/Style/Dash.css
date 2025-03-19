@@ -1,0 +1,202 @@
+body {
+    background-color: #1c1e21;
+    margin: 0;
+    padding-top: 80px;
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b1c26;
+    border-bottom:1px solid #26444c ;
+    box-shadow:0px -20px 20px 14px rgba(0, 242, 255, 0.38);
+}
+.First-section  ,.Second-Section, .Box,.Menu-div , .main-container , .Menu-div a{
+justify-content: center;
+align-items: center;
+display: flex;
+
+}
+.First-section {
+    margin-left: 10px;
+}
+.Logo-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.First-section img {
+    height: 60px;
+    width: 35px;
+    object-fit: cover;
+}
+.Logo {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #94ecfb;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.slogan {
+    color: #6c9fae;
+    font-size: 12px;
+    font-family: Verdana;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+.Second-Section {
+    column-gap: 10px;
+    margin-right: 10px;
+    
+}
+.Menu {
+    position: relative;
+}
+.Menu-div {
+    position: absolute;
+    border: 1px solid rgb(0, 166, 255);
+    height: 260px;
+    width: 200px;
+    right: 0;
+    bottom: -261px;
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(63, 63, 63);
+    box-shadow: 0px 1px 20px 0px rgba(0, 217, 255, 0.559);
+    flex-direction: column;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.Second-Section button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.Menu:hover .Menu-div {
+    display: block;
+    display: flex;
+   
+}
+.Menu-div:hover {
+    display: block;
+    display: flex;
+}
+.Menu-div button {
+ margin-top: 5px;
+ margin-bottom: 10px;   
+ border-radius: 0;
+ height: 30px;
+ width: 90%;
+ background-color: rgb(0, 0, 0);   
+ color: white;
+ font-family: monospace;
+ border-radius: 10px;
+ box-shadow: 0px 0px 0px 2px rgb(175 175 175 / 30%);
+ transition: all 0.17s;   
+}
+.Menu-div a {
+    width: 90%;
+    text-decoration: none;
+}
+.Menu-div button:hover {
+    background-color: rgb(11, 11, 10);
+    opacity: 0.8;
+}
+.Menu-div button:active {
+    opacity: 0.7;
+    box-shadow: 0px 0px 0px 0px transparent;
+}
+.main-container {
+    width: 100%;
+}
+main {
+    box-shadow: 0px 0px 7px 1px #01b0ff,
+    inset 0px 0px 17px 0px #000000e0;;
+    border-top:1px solid rgb(0, 187, 255);
+    border-bottom:  1px solid rgb(0, 187, 255);
+    background-color: #1b1c26;
+    height: 500px;
+    display: grid;
+    max-width: 1200px;
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.f-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+   
+}
+
+.Title {
+    font-family:Georgia;
+    font-weight: bold;
+    color: rgb(190, 235, 244);
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Box {
+    height: 40px;
+    width: 90%;
+    color: aliceblue;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.693);
+    border: 1px solid rgba(167, 167, 167, 0.617);
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: monospace;
+}
+.Box span {
+    margin-left: 10px;
+}
+.status, .paid , .host, .Name , .Email,.bold , .service , .Device , .path ,.HostNAme{
+    font-weight: bold;
+}
+.status {
+   color: red;     
+}
+.paid , .Name{
+    color : green;
+}
+.host , .HostNAme ,.Email{
+    color: aqua;
+}
+.port {
+    color: purple;
+}
+.service,.Device {
+    
+    color: rgb(255, 0, 98);
+}
+.path {
+    color: rgb(48, 100, 255);
+}
+.logout {
+    flex: 1;
+}
+.url {
+    color: rgb(0, 191, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.url p {
+    margin-left: 10px;
+}
