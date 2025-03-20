@@ -83,7 +83,7 @@ let MongoAcc = false;
 let sq1 = false;
 
 
-RL.question(`Do you wanna change settings?{Default will be set}(y/n)   `,(info=>{
+RL.question(`Do you wanna change settings?{Default will be set}(y/n)   :`,(info=>{
     if (info ==='y') {
         s();
     }
@@ -95,7 +95,7 @@ RL.question(`Do you wanna change settings?{Default will be set}(y/n)   `,(info=>
 function s() {
     
 
-RL.question(`Please enter and port number?(default:3000)  `,(info)=>
+RL.question(`Please enter and port number?(default:3000)  :`,(info)=>
 {
  port = Number(info);
  if(port === 0 || port === NaN || port === ""){
@@ -140,7 +140,7 @@ RL.question(`Please enter and port number?(default:3000)  `,(info)=>
 })
 
 function s2() {
-    RL.question(`Do your have mongoDB Account?(y/n =>{default:no})  `,(info)=>{
+    RL.question(`Do your have mongoDB Account?(y/n =>{default:no})  :`,(info)=>{
     if (info === 'y') {
       MongoAcc = true;
       sf();   
@@ -158,7 +158,7 @@ function s2() {
 
 function sf() {
     if (MongoAcc) {
-        RL.question(`Please Provide an AuthToken    `,(info)=>{
+        RL.question(`Please Provide an AuthToken    :`,(info)=>{
             ID = info;
         if(ID === null || ID === "" || ID === undefined) {
                ID =  `mongodb+srv://NodeDB:asdf1234@cluster0.cbnst.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
@@ -184,6 +184,7 @@ mongoose.connect(ID)
     console.log("Connected to DataBase")
     app.listen(port,"localhost",() =>{
     console.log(`Listening localhost:${port}`)
+    console.log(`Visit http://localhost:${port}/Login to start your server`);
     if(OS.platform()==='linux') {
          exec("npm run server",(error,stdout,stderr)=>{
         console.log("Host Linux Detected ..... ")
