@@ -1,5 +1,7 @@
 # MDA Server
 
+[![Node.js CI](https://github.com/AdnanDLuffy/MDA-Server/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/AdnanDLuffy/MDA-Server/actions/workflows/node.js.yml)
+
 Hosting at your doorsteps
 
 Static or dynamic – add a few lines of code to make your site truly yours. Built by developers, for developers
