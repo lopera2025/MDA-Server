@@ -1,5 +1,8 @@
 body {
     padding-top: 100px;
+    background-color: #1e1e1e;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
@@ -95,4 +98,40 @@ main {
     
     
 
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    background: #444;
+    width: 60px;
+    position: relative;
+}
+
+.toggle-ball {
+    width: 20px;
+    height: 20px;
+    background: #53c28b;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+body.light-mode .toggle-ball {
+    transform: translateX(30px);
+}
+
+.toggle-icon {
+    width: 16px;
+    height: 16px;
 }
