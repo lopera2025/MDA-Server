@@ -221,6 +221,7 @@ git push origin feature-branch
 This project is developed and maintained by [AdnanDLuffy](https://github.com/AdnanDLuffy). We thank the following contributors for their valuable input and support:
 
 - [AdnanDLuffy](https://github.com/AdnanDLuffy)
+- [Nachiket-Roy](https://github.com/Nachiket-Roy)
 - Contribute to see your name here
 
 Special thanks to the open-source community for their contributions and support. This project is powered by contributions from developers worldwide and built with the following technologies:
